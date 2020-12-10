@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
-void main() { runApp(
-    MaterialApp(
-      home:Scaffold(
+import 'package:zents/Screens/Home.dart';
 
-      ),
-    )
+void main() {
+  runApp(
+    MaterialApp(
+      home: Home(),
+    ),
   );
 }
 
